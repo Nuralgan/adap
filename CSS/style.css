@@ -419,4 +419,64 @@ header {
     .about-list {
         flex-direction: column;
     }
+    .service-info h2 {
+        font-size: 20px;
+    }
+    .service-info .service-img img {
+        max-width: 300px;
+    }
+    .service-info {
+        flex-direction: column;
+        margin: 0 10px;
+    }
+    .service-list {
+        flex-direction: column;
+    }
+    .service-text {
+        width: 370px;
+    }
+    hr {
+        display: none;
+    }
+    .work-title {
+        flex-direction: column;
+    }
+    .work-list {
+        flex-direction: column;
+    }
+    .project-list {
+        flex-direction: column;
+    }
+    .project-list img {
+        max-width: 300px;
+        padding: 5px 0;
+    }
+    .video {
+        display: none;
+    }
+    .sub-input {
+        display: flex;
+        margin: 30px auto;
+        width: 370px;
+        box-shadow: 0 0 5px 0 #9e9e9e;
+        border-radius: 40px;
+        overflow: hidden;
+    }
+    .sub-input input {
+        padding: 10px 36px;
+        outline: none;
+        width: 65%;
+        font-size: 15px;
+        border: none;
+    }
+    .sub-input span {
+        padding: 10px;
+        width: 35%;
+        font-size: 15px;
+        background-color: #4985ff;
+        color: white;
+    }
+    .footer-content {
+        flex-direction: column;
+    }
 }
