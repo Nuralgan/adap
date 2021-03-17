@@ -396,7 +396,6 @@ header {
 
 @media (max-width: 414px) {
     .container {
-        background-size: cover;
         width: auto;
         margin: 0 10px;
     }
@@ -416,5 +415,8 @@ header {
         color: white;
         border: none;
         border-radius: 100px;
+    }
+    .about-list {
+        flex-direction: column;
     }
 }
